@@ -1,0 +1,276 @@
+html, body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+.topnav {
+background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+border-radius: 0px;
+  padding: 10px 10px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255,255,255);
+height: 32px;
+  
+}
+
+.topizmainas {
+    border-radius: 10px;
+  overflow: hidden;
+background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+    color: rgb(255,255,255);
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topkonsultacijas {
+    border-radius: 10px;
+  overflow: hidden;
+background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255,255,255);
+
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topedienkarte {
+    border-radius: 10px;
+  overflow: hidden;
+background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255,255,255);
+    
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topjaunumi {
+    border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+    width: 33vw;
+  overflow: hidden;
+background: linear-gradient(90.55deg, rgba(255, 1, 1, 0.2) 0%, rgba(255, 184, 0, 0.2) 100%), #FFB801;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255,255,255);
+    
+   margin-top: 40px;
+}
+
+
+.menu {
+    position: absolute;
+    left: 20px;
+} 
+
+.mode {
+    position: absolute;
+    right: 20px;
+}
+
+.bilde {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 30%;
+}
+
+.header-a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0;
+}
+
+.test {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* ---------------------- SIDE MENU STILS -------------------------- */
+/* The side navigation menu */
+.sidenav {
+  margin-top: 32 px; 
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Stay on top */
+  left: 0;
+  background-color:  #ffffff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.7s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+text-align: left;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  color: #FF8A01 ;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.header-a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0;
+}
+.menukasteaktualitates{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+.menukastemacibas{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+.menukasteadarbs{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+
+.menukastenorm{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+.menukastemums{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+.menukastegadi{
+    display: block;
+    width: 90% ; 
+    margin-bottom: 10px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.35) 0%, rgba(255, 184, 0, 0.35) 100%), #FF8A01;
+    
+}
+
+.overlay {
+    right: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128,128,128, 0.6);
+    z-index: 2;
+    visibility: hidden;
+}
+
+/* -------------------------------------------------------------------- */
+
+.container {
+    margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  left: 50%;
+  width: 33vw;
+  transform: translate(-50%, 0);
+  background: rgba(19, 19, 19, 0.45);
+    bottom: 410px;
+
+  font-size: 2vw;
+}
+
+#direktore_marts {
+    width: 33vw;
+    margin-top: 90px;
+}
+
+.top-right {
+  position: absolute;
+  left: 50%;
+  width: 31.5vw;
+  transform: translate(-50%, 0);
+  background: rgba(19, 19, 19, 0.45);
+    bottom: 7px;
+
+  font-size: 1.5vw;
+}
+
+#gudrs7.jpg {
+    width: 33vw;
+    margin-top: 200px;
+}
